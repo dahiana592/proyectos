@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>PLANES</title>
+</head>
+
+<body><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h1> ZOOLOGICO LOS ANDES</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-14">
+                <a href="zoologico.html">INICIO--</a>
+                <a href="zonas.html">ZONAS--</a>
+                <a href="encargados.html">PERSONAL--</a>
+                <a href="planes.html">PLANES--</a>
+                <a href="zonaplan.html">ZONAPLAN--</a>
+                <a href="animales.html">ANIMALES--</a>
+                <a href="veterinario.html">VETERINRIO--</a>
+                <a href="usuarios.html">USUARIOS--</a>
+                <a href="usuariosplan.html">USUPLAN--</a>
+                <a href="parqueadero.html"> PARQUEADERO</a>
+            </div>
+        </div><br><br>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card bg-darkblue text-white">
+                    <img src="../include/imagenes/a1.jpg" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">ZOO LOS ANDES</h5>
+                        <p class="card-text">Aqui podras ver de cerca todas las maravillas de la naturaleza 
+                            en su maxima expresión. Ven y disfruta!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-darkblue text-white">
+                    <img src="../include/imagenes/a2.jpg" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">ZOO LOS ANDES</h5>
+                        <p class="card-text">Podras recorrer el mundo  sin pasaporte y podras recorrer
+                            todos los continentes y ver los animales más exoticos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-darkblue text-white">
+                    <img src="../include/imagenes/a3.jpg" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">ZOO LOS ANDES</h5>
+                        <p class="card-text">Disfruta con tu familia, te ofrecemos el mejor servcio
+                            para que te sientas comodo.</p>
+                    </div>
+                </div><br><br><br>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 offset-md-1">
+                    <h6>PLANES:</h6>
+                    <h6>-DE 1 ZONA CUESTA $30.000. CODIGO 111</h6>
+                    <h6>-DE 2 ZONAS CUESTA $50.000. CODIGO 222</h6>  
+                    <h6>-DE 3 ZONAS CUESTA $75.000. CODIGO 333</h6>  
+                    <h6>-PLAN 003 CON ZONA ADICIONAL CUESTA $10.000. CODIGO 444</h6><br>
+                    <h6>DIGITE CODIGO DEL PLAN :</h6>
+                    <input type="number" id="codigo_plan" placeholder="ejemplo"><br>
+                    <h6>DIGITE CODIGO DEL PLAN A COMPRAR :</h6>
+                    <input type="number" id="codigop_plan" placeholder="ejemplo"><br>
+                    <h6>DIGITE CANTIDAD DE  NIÑOS:</h6>
+                    <input type="number" id="niños_plan"  placeholder="si o no"><br>
+                    <h6>DIGITE NUMERO DE PERSONAS:</h6>
+                    <input type="number" id="personas_plan" placeholder="ejemplo"><br><br>
+                    <button class="btn btn-primary" id="total">TOTAL</button>
+                    <h6>TOTAL A PAGAR:</h6>
+                    <input type="number" id="total_plan" readonly placeholder="ejemplo"><br><br>
+                    <button class="btn btn-primary" id="agregar">AGREGAR</button><br>
+                      <button class="btn btn-primary" id="eliminar">CANCELAR</button>
+                    
+                </div>
+
+                <div class="col-md-3">
+                    <h6>CONSULTAS</h6>
+                    <table width="630" border="2" align="center" style="background: url(../include/imagenes/t2.jpg)" id="plan">                     
+                    </table><br>
+                    <button class="btn btn-primary" id="consultar">CONSULTAR</button>
+                </div>
+
+            </div>
+        </div>
+</body>
+<script type="text/javascript" src="../include/jquery/jquery-3.3.1.js"></script>
+<link rel="stylesheet" type="text/css" href="../include/bootsrap 4/css/bootstrap.min.css">
+<script type="text/javascript" src="../include/bootsrap 4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/planes.css">
+<script src="../js/planes.js"></script>
+
+</html>

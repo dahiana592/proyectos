@@ -1,0 +1,67 @@
+@font-face{
+    font-family: z;
+    src: url(../include/grafia/Sweet\ Hipster.ttf)
+}
+
+body{
+    background-color: blueviolet;    
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.container{
+    background-image: url(../include/imagenes/images.jpg);
+    width: 70%;
+    height: 950px;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    border: 4px solid blue;
+}
+
+h1{
+    font-family: z;
+    font-size: 100px;
+    color: blue;
+    text-shadow: 3px 3px white;
+}
+h6{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px blue;
+}
+
+a{
+    font-family: z;
+    font-size: 35px;
+    color: blue;
+    text-shadow: 1px 1px white;
+}
+
+
+#codigo_personal{
+border-radius: 10px;
+border-color: blue;
+}
+
+#nombre_personal{
+border-radius: 10px;
+border-color: blue;
+}
+
+#apellido_personal{
+border-radius: 10px;
+border-color: blue;
+}
+
+#tel_personal{
+border-radius: 10px;
+border-color: blue;
+}
+
+#codigo_zona{
+border-radius: 10px;
+border-color: blue;
+}
+
+
+

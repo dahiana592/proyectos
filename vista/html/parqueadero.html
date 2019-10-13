@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>PARQUEADERO</title>
+</head>
+
+<body><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h1> ZOOLOGICO LOS ANDES</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-14">
+                <a href="zoologico.html">INICIO--</a>
+                <a href="zonas.html">ZONAS--</a>
+                <a href="encargados.html">PERSONAL--</a>
+                <a href="planes.html">PLANES--</a>
+                <a href="zonaplan.html">ZONAPLAN--</a>
+                <a href="animales.html">ANIMALES--</a>
+                <a href="veterinario.html">VETERINRIO--</a>
+                <a href="usuarios.html">USUARIOS--</a>
+                <a href="usuariosplan.html">USUPLAN--</a>
+                <a href="parqueadero.html"> PARQUEADERO</a>
+            </div>
+        </div><br><br>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card bg-darkblue text-white">
+                    <img src="../include/imagenes/pa1.jpg" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">ZOOLOGICO LOS ANDES</h5>
+                        <p class="card-text">Ven y disfruta de nuestras zonas geograficas
+                            en las que encontrarás animales de todos los continentes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-darkblue text-white">
+                    <img src="../include/imagenes/pa2.jpg" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">ZOOLOGICO LOS ANDES</h5>
+                        <p class="card-text">Podras recorrer el mundo  sin pasaporte y podras recorrer
+                            todos los continentes y ver los animales más exoticos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-darkblue text-white">
+                    <img src="../include/imagenes/pa3.jpg" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">ZOOLOGICO LOS ANDES</h5>
+                        <p class="card-text">Disfruta todo lo que tenemos para. Ven y visitanos</p>
+                    </div>
+                </div><br><br><br>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 offset-md-1">
+                    <h6>DIGITE CODIGO DEL  PARQUEADERO:</h6>
+                    <input type="number" id="codigo_parque" placeholder="ejemplo"><br>
+                    <h6>DIGITE NUMERO POSICION:</h6>
+                    <input type="number" id="posicion_parque" placeholder="ejemplo"><br>
+                    <h6>DIGITE CODIGO USUARIO:</h6>
+                    <input type="number" id="codigo_usuario" placeholder="ejemplo"><br>
+                    <h6>DIGITE HORA DE INGRESO:</h6>
+                    <input type="time" id="ingreso_parque" placeholder="ejemplo"><br>
+                    <h6> DIGITE HORA DE SALIDA:</h6>
+                    <input type="time" id="salida_parque" placeholder="ejemplo"><br>
+                    <button class="btn btn-primary" id="total">TOTAL</button>
+                    <h6>TOTAL PARQUEO:</h6>
+                    <input type="text" id="total_parque" placeholder="ejemplo"><br><br>
+                    <button class="btn btn-primary"  id="agregar">AGREGAR</button>
+                    <button class="btn btn-primary" id="editar">EDITAR</button>
+ 
+
+                </div>
+
+                <div class="col-md-3">
+                    <h6>CONSULTAS</h6>
+                    <table width="630" border="2" align="center" style="background: url(../include/imagenes/t8.jpg)" id="parque">                        
+                    </table><br>
+                    <button class="btn btn-primary" id="consultar">CONSULTAR</button>
+                </div>
+
+            </div>
+        </div>
+</body>
+<script type="text/javascript" src="../include/jquery/jquery-3.3.1.js"></script>
+<link rel="stylesheet" type="text/css" href="../include/bootsrap 4/css/bootstrap.min.css">
+<script type="text/javascript" src="../include/bootsrap 4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/parqueadero.css">
+<script src="../js/parqueo.js"></script>
+
+</html>
